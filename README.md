@@ -18,8 +18,8 @@ To build the project from source, you will also need:
  		
 ## Building from source
 
-1. Clone the repository using git: 'git clone https://github.com/Sallatik/telegram-storoj-bot.git'
-2. 'cd telegram-storoj-bot' and 'mvn install'
+1. Clone the repository using git: `git clone https://github.com/Sallatik/telegram-storoj-bot.git`
+2. `cd telegram-storoj-bot` and `mvn install`
 
 ## Configuring
 
@@ -29,7 +29,7 @@ If you want to customize the messages, edit messages.properties file.
 
 ## Running
 
-1. Run the redis server locally by executing 'redis-server'
+1. Run the redis server locally by executing `redis-server`
 2. `cd` into project directory and execute `java -jar target/storoj-bot-jar-with-dependencies.jar`
 
 ## Usage

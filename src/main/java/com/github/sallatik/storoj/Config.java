@@ -17,7 +17,7 @@ import redis.clients.jedis.Jedis;
 import javax.validation.constraints.AssertTrue;
 
 @Configuration
-@ComponentScan("com.github.sallat.guard")
+@ComponentScan("com.github.sallatik.storoj")
 @PropertySource("file:${user.dir}/bot.properties")
 public class Config {
 
